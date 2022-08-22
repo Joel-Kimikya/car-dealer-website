@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className='flex'>
       <Head>
-        <title>Next App Template</title>
+        <title>Car Dealer</title>
         <meta name='description' content='Car dealer website' />
       </Head>
       <App />

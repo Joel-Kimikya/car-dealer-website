@@ -5,7 +5,18 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        greeny: '#82ECE4',
+        yellw: '#F2B758',
+        bl: '#57A4F3',
+        rosey: '#FE6370',
+        'bg-menu': '#F8F6F5',
+      },
+    },
+    fontFamily: {
+      courgette: ['Courgette', 'cursive'],
+    },
   },
   plugins: [],
 };
