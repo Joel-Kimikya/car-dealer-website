@@ -25,3 +25,5 @@ Prettier is an opinionated code formatter. It enforces a consistent style by par
 Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces.
 
 #### Developed with ♥♥♥ by Ntavigwa Bashombe
+
+This is the inspiration for this website: https://dribbble.com/shots/18033547-Web-site-design-landing-page-home-page-ui

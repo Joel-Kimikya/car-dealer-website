@@ -9,6 +9,7 @@ import { GiCutDiamond } from 'react-icons/gi';
 
 import lambo from '../assets/lamborghini.jpg';
 import porsche from '../assets/porsche.png';
+import Content from '../components/Content';
 
 /**
  * @author Ntavigwa Bashombe
@@ -60,7 +61,7 @@ const App = () => {
         </div>
         <div className='flex flex-col mt-[70px] w-full'>
           <div className='flex flex-row justify-start space-x-10 items-center'>
-            <p className='text-2xl text-gray-600'>
+            <p className='text-xl text-gray-600'>
               <span className='text-bl'>Premium</span> All Brands
             </p>
             <div className='flex items-center justify-center w-6 h-6 p-1 bg-black rounded-full'>
@@ -113,7 +114,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div>Body</div>
+      <Content />
     </div>
   );
 };
