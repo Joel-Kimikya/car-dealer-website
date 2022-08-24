@@ -23,10 +23,10 @@ import Content from '../components/Content';
 const App = () => {
   return (
     <div className='w-full h-full flex flex-row'>
-      <div className='w-1/4 py-10 px-16 bg-bg-menu bg-gradient-to-b from-white to-bg-menu'>
+      <div className='w-1/3 py-10 px-16 bg-bg-menu bg-gradient-to-b from-white to-bg-menu'>
         <div className='flex flex-row justify-start items-center space-x-4'>
           <p className='font-courgette text-gray-900 text-8xl font-bold'>v</p>
-          <p className='text-xl mt-3 text-gray-700'>Carcy</p>
+          <p className='text-xl mt-3 text-gray-700 font-semibold'>Carcy</p>
         </div>
         {/* Card */}
         <div className='flex flex-col space-y-4 w-full bg-white shadow-xl rounded-xl mt-16 px-3 pt-3 pb-7'>
@@ -108,7 +108,7 @@ const App = () => {
               Request a test drive or a quote, and get in touch with your
               nearest dealer.
             </p>
-            <div className='uppercase bg-rosey text-white font-bold text-sm px-5 py-3 rounded-lg mt-4 mb-16'>
+            <div className='uppercase bg-rosey text-white font-bold text-sm px-5 py-3 rounded-lg mt-4 mb-16 cursor-pointer hover:none'>
               Get in Touch
             </div>
           </div>
