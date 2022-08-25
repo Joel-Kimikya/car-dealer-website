@@ -10,6 +10,8 @@ import { GiCutDiamond } from 'react-icons/gi';
 import lambo from '../assets/lamborghini.jpg';
 import porsche from '../assets/porsche.png';
 import Content from '../components/Content';
+import audi from '../assets/tpr.png';
+import scania from '../assets/scania.png';
 
 /**
  * @author Ntavigwa Bashombe
@@ -73,7 +75,7 @@ const App = () => {
               <Image src={porsche} alt='car' className='w-auto h-auto' />
             </div>
             <div className='w-[75px] mb-6'>
-              <Image src={porsche} alt='car' className='w-auto h-auto' />
+              <Image src={audi} alt='car' className='w-auto h-auto' />
             </div>
             <div className='w-[75px] mb-6'>
               <Image src={porsche} alt='car' className='w-auto h-auto' />
@@ -91,7 +93,7 @@ const App = () => {
               <Image src={porsche} alt='car' className='w-auto h-auto' />
             </div>
             <div className='w-[75px] mb-6'>
-              <Image src={porsche} alt='car' className='w-auto h-auto' />
+              <Image src={scania} alt='car' className='w-auto h-auto' />
             </div>
             <div className='w-[75px] mb-6'>
               <Image src={porsche} alt='car' className='w-auto h-auto' />
